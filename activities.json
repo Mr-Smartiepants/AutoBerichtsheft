@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Kurzes Feedbackgespräch mit dem Ausbilder zur Tagesaufgabe",
+    "duration": 15
+  },
+  {
+    "name": "E-Mail-Antworten an Kollegen aus der Fachabteilung",
+    "duration": 15
+  },
+  {
+    "name": "Kalenderpflege und Planung kommender IT-Termine",
+    "duration": 15
+  },
+  {
+    "name": "Kurze PC-Wartung: Lüfter prüfen und reinigen",
+    "duration": 15
+  },
+  {
+    "name": "Sicherung einzelner Dateien auf USB-Stick",
+    "duration": 15
+  },
+  {
+    "name": "Systemneustart nach Update durchführen und prüfen",
+    "duration": 15
+  },
+  {
+    "name": "Verbindung zum WLAN testen und kurze Notiz schreiben",
+    "duration": 15
+  },
+  {
+    "name": "Notizen aus Teammeeting digital zusammenfassen",
+    "duration": 15
+  },
+  {
+    "name": "Kurzer Blick ins Ticketsystem: Übersicht verschaffen",
+    "duration": 15
+  },
+  {
+    "name": "Telefonat mit Support wegen technischer Rückfrage",
+    "duration": 15
+  },
+  {
+    "name": "Kurze Rücksprache mit dem Ausbilder zu aktuellen Aufgaben",
+    "duration": 30
+  },
+  {
+    "name": "Prüfung der Druckerfunktion an Arbeitsplatzrechnern",
+    "duration": 30
+  },
+  {
+    "name": "Durchsicht und Aktualisierung von Benutzerprofilen",
+    "duration": 30
+  },
+  {
+    "name": "Pflege der Inventarliste für Hardwaregeräte",
+    "duration": 30
+  },
+  {
+    "name": "Update einzelner Anwendungsprogramme auf Client-PCs",
+    "duration": 30
+  },
+  {
+    "name": "E-Mail-Postfächer aufräumen und archivieren",
+    "duration": 30
+  },
+  {
+    "name": "Einrichten eines Benutzerkontos im Schulungsnetzwerk",
+    "duration": 30
+  },
+  {
+    "name": "Vorbereitung eines Arbeitsplatz-PCs für einen neuen Benutzer",
+    "duration": 30
+  },
+  {
+    "name": "Sichtung neuer Supportanfragen im Ticketsystem",
+    "duration": 30
+  },
+  {
+    "name": "Testen der WLAN-Verbindung in Bürobereichen",
+    "duration": 30
+  },
+  {
+    "name": "Einfache Fehleranalyse bei nicht erreichbarem Drucker",
+    "duration": 45
+  },
+  {
+    "name": "Recherche zu aktuellen Cybersecurity-Bedrohungen",
+    "duration": 45
+  },
+  {
+    "name": "Verfassen eines kurzen IT-Wissensartikels für interne Dokumentation",
+    "duration": 45
+  },
+  {
+    "name": "Durchführung eines manuellen Updates auf einem Client-System",
+    "duration": 45
+  },
+  {
+    "name": "Bearbeitung kleiner Hardwaredefekte (z.B. Tastaturtausch)",
+    "duration": 45
+  },
+  {
+    "name": "Erste Tests einer neuen Softwarelösung auf Testsystem",
+    "duration": 45
+  },
+  {
+    "name": "Sicherung ausgewählter Daten auf Wechseldatenträger",
+    "duration": 45
+  },
+  {
+    "name": "Kurze Anwenderschulung: Erklärung der Druckfunktion",
+    "duration": 45
+  },
+  {
+    "name": "Überprüfung und Pflege der Firewall-Regeln",
+    "duration": 45
+  },
+  {
+    "name": "Überarbeitung eines bestehenden Scripts für die Datensicherung",
+    "duration": 45
+  },
+  {
+    "name": "Austausch einer defekten PC-Komponente (z.B. Festplatte)",
+    "duration": 60
+  },
+  {
+    "name": "Installation und Basiskonfiguration eines neuen Arbeitsplatzrechners",
+    "duration": 60
+  },
+  {
+    "name": "Durchführen eines Software-Rollouts auf mehreren Geräten",
+    "duration": 60
+  },
+  {
+    "name": "Sicherheitsprüfung der installierten Anwendungen",
+    "duration": 60
+  },
+  {
+    "name": "Planung einer kleinen Netzwerkstruktur für einen Arbeitsbereich",
+    "duration": 60
+  },
+  {
+    "name": "Aufbau eines Testnetzwerks für interne Schulungen",
+    "duration": 60
+  },
+  {
+    "name": "Begleitung eines Anwenders beim Wechsel auf ein neues Endgerät",
+    "duration": 60
+  },
+  {
+    "name": "Protokollierung von Netzwerkproblemen zur Fehleranalyse",
+    "duration": 60
+  },
+  {
+    "name": "Analyse der Serverlogs auf sicherheitsrelevante Ereignisse",
+    "duration": 60
+  },
+  {
+    "name": "Durchführung eines geplanten Neustarts wichtiger Serverdienste",
+    "duration": 60
+  },
+  {
+    "name": "Besprechung im IT-Team über neue Projektaufgaben",
+    "duration": 60
+  },
+  {
+    "name": "Test einer Backup- und Restore-Prozedur",
+    "duration": 60
+  },
+  {
+    "name": "Überarbeitung von IT-Dokumentationsvorlagen",
+    "duration": 60
+  },
+  {
+    "name": "Vorbereitung einer kurzen Präsentation über ein IT-Thema",
+    "duration": 60
+  },
+  {
+    "name": "Bearbeitung mehrerer kleiner Supportanfragen",
+    "duration": 60
+  },
+  {
+    "name": "Updates und Patches auf mehreren Servern einspielen",
+    "duration": 60
+  },
+  {
+    "name": "Durchführung kleiner Optimierungen an der Netzwerkhardware",
+    "duration": 60
+  },
+  {
+    "name": "Anpassung von Gruppenrichtlinien im Active Directory",
+    "duration": 60
+  },
+  {
+    "name": "Verfassen eines kurzen Berichts zu einem IT-Problem",
+    "duration": 60
+  },
+  {
+    "name": "Fehlerbehebung bei einem mobilen Endgerät",
+    "duration": 60
+  },
+  {
+    "name": "Planung einer kleinen IT-Schulung für Kollegen",
+    "duration": 90
+  },
+  {
+    "name": "Erstellung eines Konzepts für ein neues Client-Image",
+    "duration": 90
+  },
+  {
+    "name": "Intensivere Recherche zu neuen Backup-Strategien",
+    "duration": 90
+  },
+  {
+    "name": "Durchführung einer Schwachstellenanalyse im Testnetzwerk",
+    "duration": 90
+  },
+  {
+    "name": "Erstellen eines Installationspakets für Standardsoftware",
+    "duration": 90
+  },
+  {
+    "name": "Hardwareinventur in einem Gebäudeteil",
+    "duration": 90
+  },
+  {
+    "name": "Projektplanung für die Einführung neuer Peripheriegeräte",
+    "duration": 90
+  },
+  {
+    "name": "Durchführung einer Anwenderschulung zum Thema IT-Sicherheit",
+    "duration": 90
+  },
+  {
+    "name": "Vergleich unterschiedlicher Antivirensoftwarelösungen",
+    "duration": 90
+  },
+  {
+    "name": "Überarbeitung der Netzwerkdokumentation",
+    "duration": 90
+  },
+  {
+    "name": "Erstellung eines Scripts zur Automatisierung kleiner Aufgaben",
+    "duration": 90
+  },
+  {
+    "name": "Durchführung und Protokollierung eines Sicherheitstests",
+    "duration": 90
+  },
+  {
+    "name": "Besprechung eines IT-Projekts mit Fachabteilungen",
+    "duration": 90
+  },
+  {
+    "name": "Test einer neuen E-Mail-Archivierungslösung",
+    "duration": 90
+  },
+  {
+    "name": "Optimierung der Dateiablagestruktur auf Servern",
+    "duration": 90
+  },
+  {
+    "name": "Erstellen einer kurzen Präsentation zu Datenschutzthemen",
+    "duration": 90
+  },
+  {
+    "name": "Begleitung bei der Planung einer Servererweiterung",
+    "duration": 90
+  },
+  {
+    "name": "Entwicklung kleiner Skripte zur Benutzerverwaltung",
+    "duration": 90
+  },
+  {
+    "name": "Analyse von Supportanfragen zur Ableitung von Verbesserungen",
+    "duration": 90
+  },
+  {
+    "name": "Anpassung von Softwareeinstellungen für einen Sonderbedarf",
+    "duration": 90
+  },
+  {
+    "name": "Neuinstallation eines Serversystems inkl. Grundkonfiguration",
+    "duration": 120
+  },
+  {
+    "name": "Aufsetzen eines kompletten Arbeitsplatzes mit Spezialsoftware",
+    "duration": 120
+  },
+  {
+    "name": "Durchführung eines Systemumzugs auf neue Hardware",
+    "duration": 120
+  },
+  {
+    "name": "Planung und Umsetzung einer neuen VLAN-Struktur",
+    "duration": 120
+  },
+  {
+    "name": "Großes Software-Updateprojekt: Rollout und Nachkontrolle",
+    "duration": 120
+  },
+  {
+    "name": "Intensive Mitarbeit an einem Digitalisierungsprojekt",
+    "duration": 120
+  },
+  {
+    "name": "Auswertung einer umfassenden Schwachstellenanalyse",
+    "duration": 120
+  },
+  {
+    "name": "Migration von Benutzerprofilen auf neue Systeme",
+    "duration": 120
+  },
+  {
+    "name": "Erstellen eines umfassenden Backupkonzepts für Abteilungen",
+    "duration": 120
+  },
+  {
+    "name": "Test und Dokumentation einer neuen Softwarelösung",
+    "duration": 120
+  },
+  {
+    "name": "Erstellung von Schulungsmaterialien für IT-Schulungen",
+    "duration": 120
+  },
+  {
+    "name": "Teilnahme an externer Weiterbildung zu aktuellen IT-Themen",
+    "duration": 120
+  },
+  {
+    "name": "Konfiguration eines Firewallsystems nach Vorgaben",
+    "duration": 120
+  },
+  {
+    "name": "Sicherheitsüberprüfung des gesamten WLAN-Netzwerks",
+    "duration": 120
+  },
+  {
+    "name": "Mitarbeit bei der Einführung eines neuen ERP-Systems",
+    "duration": 120
+  },
+  {
+    "name": "Erstellen einer detaillierten IT-Dokumentation für Projekte",
+    "duration": 120
+  },
+  {
+    "name": "Fehleranalyse und Austausch defekter Netzwerkkomponenten",
+    "duration": 120
+  },
+  {
+    "name": "Planung und Durchführung einer größeren Servermigration",
+    "duration": 120
+  },
+  {
+    "name": "Begleitung von IT-Audits und Vorbereitung notwendiger Unterlagen",
+    "duration": 120
+  },
+  {
+    "name": "Einarbeitung in ein neues IT-Tool und Erstellung eines Erfahrungsberichts",
+    "duration": 120
+  },
+  {
+    "name": "Planung neuer Funktionen für ein internes Softwareprojekt",
+    "duration": 60
+  },
+  {
+    "name": "Implementierung einer Zeitauswertungslogik im Projektcode",
+    "duration": 90
+  },
+  {
+    "name": "Erstellen und Strukturieren von JSON-Daten für Projektnutzung",
+    "duration": 60
+  },
+  {
+    "name": "Testlauf zur automatisierten Datenausgabe innerhalb des Projekts",
+    "duration": 45
+  },
+  {
+    "name": "Entwicklung eines Auswahlalgorithmus im laufenden Softwareprojekt",
+    "duration": 90
+  },
+  {
+    "name": "Fehlersuche in einem Funktionsmodul zur Datenverarbeitung",
+    "duration": 60
+  },
+  {
+    "name": "Dokumentation von Funktionen und Schnittstellen im Projekt",
+    "duration": 45
+  },
+  {
+    "name": "Schreiben von Tests zur Sicherstellung der Datenqualität",
+    "duration": 60
+  },
+  {
+    "name": "Code-Refactoring zur Verbesserung der Lesbarkeit und Wartbarkeit",
+    "duration": 60
+  },
+  {
+    "name": "Gestaltung einer Benutzeroberfläche mit HTML und CSS",
+    "duration": 120
+  },
+  {
+    "name": "Einbindung von Steuerelementen in eine Webanwendung",
+    "duration": 90
+  },
+  {
+    "name": "Umsetzung einer Exportfunktion für Projektdaten",
+    "duration": 60
+  },
+  {
+    "name": "Programmierung einer Filterfunktion zur Auswahl bestimmter Daten",
+    "duration": 45
+  },
+  {
+    "name": "Eingabevalidierung und Fehlerbehandlung im Frontend",
+    "duration": 30
+  },
+  {
+    "name": "Einlesen und Verarbeiten von JSON-Dateien im Projektcode",
+    "duration": 60
+  },
+  {
+    "name": "Behebung eines Fehlers in der Datenanzeige",
+    "duration": 60
+  },
+  {
+    "name": "Erarbeitung eines Konzepts zur mobilen Nutzung der Anwendung",
+    "duration": 60
+  },
+  {
+    "name": "Besprechung mit dem Ausbilder zum Projektfortschritt",
+    "duration": 30
+  },
+  {
+    "name": "Einrichten eines Repositories zur Versionskontrolle",
+    "duration": 30
+  },
+  {
+    "name": "Code-Review im Team zur Verbesserung der Projektqualität",
+    "duration": 45
+  }
+]
