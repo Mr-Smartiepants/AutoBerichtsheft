@@ -22,8 +22,8 @@ app = Flask(__name__)
 load_dotenv()
 
 # Login-Daten aus Umgebungsvariablen abrufen
-USERNAME = os.getenv('USERNAME')
-PASSWORD = os.getenv('PASSWORD')
+USERNAME = os.getenv('USERNAME_PERSONAL')
+PASSWORD = os.getenv('PASSWORD_PERSONAL')
 
 
 # Globale Variablen
