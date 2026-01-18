@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
 
 
 from dotenv import load_dotenv
@@ -96,6 +97,7 @@ def distribute_activities(driver):
             
 def delete_all_rows(driver):
     """Löscht alle Zeilen auf der Webseite und bestätigt das Popup."""
+    switch_to_week_content(driver)
     try:
         while True:
             # Finde den ersten "Zeile löschen"-Button
@@ -118,6 +120,31 @@ def delete_all_rows(driver):
     except Exception as e:
         print("Keine weiteren Zeilen zum Löschen gefunden oder ein Fehler ist aufgetreten:", e)
 
+def switch_to_week_content(driver):
+    """Stellt sicher, dass wir im richtigen Frame für die Wochendetails sind."""
+    def has_week_controls():
+        return driver.find_elements(
+            By.XPATH, "//a[@title='Eintrag löschen' or @title='Eintrag hinzufügen']"
+        )
+
+    driver.switch_to.default_content()
+    try:
+        WebDriverWait(driver, 5).until(lambda d: has_week_controls())
+        return
+    except Exception:
+        pass
+
+    frames = driver.find_elements(By.TAG_NAME, "iframe")
+    for frame in frames:
+        driver.switch_to.default_content()
+        driver.switch_to.frame(frame)
+        if has_week_controls():
+            print("Wochendetails im iframe gefunden.")
+            return
+
+    driver.switch_to.default_content()
+    print("Hinweis: Wochendetails nicht gefunden (kein iframe mit Controls).")
+
 def process_next_week(driver):
     """Wechselt zur nächsten Woche und startet den gleichen Prozess."""
     try:
@@ -137,6 +164,7 @@ def process_next_week(driver):
         print("Seite für die nächste Woche vollständig geladen.")
 
         # Lösche alle Zeilen in der neuen Woche
+        switch_to_week_content(driver)
         delete_all_rows(driver)
 
         # Tätigkeiten auf die Tage verteilen
@@ -147,9 +175,12 @@ def process_next_week(driver):
         print(f"Fehler beim Zugriff auf 'Nächste Woche': {e}")
 
 # Hauptlogik
+driver = None
 try:
     print("Starte Browser...")
-    driver = webdriver.Firefox()
+    firefox_options = Options()
+    firefox_options.binary_location = "/snap/firefox/current/usr/lib/firefox/firefox"
+    driver = webdriver.Firefox(options=firefox_options)
     driver.get("https://www.online-ausbildungsnachweis.de/blok/")
 
     # Login-Prozess
@@ -172,6 +203,7 @@ try:
         first_week.click()
         print("Klick auf 'Woche ab' erfolgreich.")
         print(f"Bearbeite Kalenderwoche:")
+        switch_to_week_content(driver)
     except Exception as e:
         print(f"Fehler beim Zugriff auf 'Woche ab': {e}")
 
@@ -183,6 +215,9 @@ try:
 
 except Exception as e:
     print(f"Fehler: {e}")
+finally:
+    if driver:
+        driver.quit()
 
 # finally:
 #     # Browser schließen
